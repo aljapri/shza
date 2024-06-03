@@ -1,0 +1,107 @@
+صورة شخصيه بجودة عاليا 
+اول سطرين في التعرف عن نفسك 
+اضافة مشاريع 
+العميل يحب لغى الارقام 
+السلام على من أتبع الهدى
+
+
+1-trojan
+2-MD8
+3-Bin Text
+4-FakeNet
+5-PK
+6-rootkit
+
+
+section A 
+
+1-d. All the above
+2-c. Zero-day
+3-c. SHA128
+4-d. Miners
+5- b. Armoring
+6-d. Rootkit
+7-c. Autoruns
+
+
+3
+
+2.1-FALSE
+Changing the name of a file will not generate a new hash of the file's content. Hashing algorithms calculate a hash based on the contents of a file, not its name.
+
+----
+
+2.2-FALSE
+The magic byte of Windows DOS executables does not start with "PK." The correct magic byte for Windows DOS executables (also known as Portable Executable files) is "MZ." This signature, 
+
+----
+
+2.3-TRUE
+While analyzing malware, it is very important to have your analysis virtual machines (VMs) isolated from any network or other critical systems. This isolation is crucial to:
+
+-----
+
+3.1-sandbox
+
+3.2-Armoring
+
+3.3-botnet
+
+3.4-exploit
+
+3.5-IDA Pro
+
+
+الفراغات 
+
+Honeypots الاول 
+
+----
+Advanced Persistent Threats (APT) الثاني 
+
+Hashing الثالث
+---
+
+Reconnaissance:  الرابع 
+
+--
+Remote Administration Tool (RAT) الخامس 
+
+
+
+
+-----------------
+
+5.1-A malware hunter is a cybersecurity professional who specializes in detecting, analyzing, and mitigating malware threats.
+Static Malware Analysis
+Dynamic Malware Analysis:
+
+------------
+
+5.2-Reconnaissance,Weaponization,Delivery,Exploitation,Installation,Command and Control,Actions on Objectives
+------------
+
+5.3-In malware analysis, suspending and snapshotting the virtual machine (VM) at each stage is important for several reasons:
+
+Reverting to a Known Good State
+
+Isolating Changes
+
+Debugging and Troubleshooting
+
+Reproducibility:
+
+Time Efficiency
+
+
+
+
+
+
+
+
+
+
+
+
+

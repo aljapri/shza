@@ -9,10 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "main-image":"url(/public/image/main-image.jpg)"
       },
+    },
+    colors: {
+      springGreen: "#02c88",
+      laPaima: "#0f9015",
+      fern: "#5cb25d",
+      green: "#005825",
+      white:"white"
     },
   },
   plugins: [],
