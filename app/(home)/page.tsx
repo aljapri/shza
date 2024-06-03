@@ -14,7 +14,7 @@ export default function Page() {
         <section className="hero bg-cover bg-center h-screen text-white flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-5xl font-bold">مرحبا بكم في شذى الشام</h1>
-            <p className="mt-4 text-xl">منتجات غذائية عالية الجودة</p>
+            <p className="mt-4 text-3xl">منتجات غذائية عالية الجودة</p>
             <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               Shop Now
             </button>

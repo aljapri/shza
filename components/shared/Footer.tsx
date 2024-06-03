@@ -12,14 +12,13 @@ function Footer() {
   ];
   return (
     <>
-      <footer className="bg-white">
+      <footer className="bg-white text-3xl">
         <div className="container mx-auto  py-[10rem]">
           {/* footer div all */}
           <div className="flex justify-between flex-col md:flex-row  items-center md:items-start  md:gap-[5rem] text-left">
             {/* logo side */}
             <div className="flex flex-col w-1/2 md:p-0 py-4 gap-8">
-
-              <p className="text-[15px] font-medium text-[#646464]">
+              <p className="text-[20px] font-medium text-[#646464]">
                 Take your health and body to the next level with our
                 comprehensive program designed to help you reach your fitness
                 goals.
@@ -38,7 +37,7 @@ function Footer() {
                   );
                 })}
               </div>
-              <p className="text-[16px] font-medium text-[#646464]">
+              <p className="text-[20px] font-medium text-[#646464]">
                 Privacy Policy | © {new Date().getFullYear()} Gymate <br />{" "}
                 Design by{" "}
                 <a
@@ -57,22 +56,20 @@ function Footer() {
 
               <span className="top-[33px] absolute w-[7rem] h-[4px] bg-green"></span>
 
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
+              <p className="text-[30px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold ">
                 الرئيسية
               </p>
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
+              <p className="text-[30px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
                 من نحن
               </p>
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
+              <p className="text-[30px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
                 اتصل بنا
               </p>
-             
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
+
+              <p className="text-[30px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
                 منتجاتنا
               </p>
             </div>
-
-            
 
             {/* middle div */}
             <span></span>

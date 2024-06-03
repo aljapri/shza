@@ -18,19 +18,19 @@ export default function Header() {
     }, []);
   return (
     <header
-      className={`w-full h-[80px] py-2 flex items-center fixed top-0 left-0   justify-between px-24  max-sm:justify-center ${
+      className={`w-full h-[80px] py-2 flex items-center fixed top-0 left-0   justify-between px-24  max-sm:justify-center text-3xl ${
         scrolled && "bg-white shadow-2xl text-green"
       } `}
     >
       <div>
-        <h1 className={`rounded-full ${scrolled && "text-green"} max-sm:hidden text-3xl`}>
+        <h1 className={`rounded-full ${scrolled && "text-green"} max-sm:hidden `}>
           شذى الشام
         </h1>
       </div>
       <div>
         <ul className="flex-row-reverse flex space-x-reverse space-x-4">
           <li>
-            <a href="#home" className="smoothScroll">
+            <a href="#home" className="smoothScroll ">
               الرئيسية
             </a>
           </li>
