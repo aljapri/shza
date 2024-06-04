@@ -10,7 +10,7 @@ export default function App() {
         Product
       </div>
       <div>
-        <div className="flex flex-row  w-full justify-center pt-20 flex-wrap gap-y-2 gap-x-2 ">
+        <div className="flex flex-row  w-full justify-center pt-20 flex-wrap gap-y-10 gap-x-10 ">
           <Image src={Cheese} width={300} height={300} alt="no image" />
           <Image src={oil} width={300} height={300} alt="no image" />
           <Image src={woraq} width={300} height={300} alt="no image" />
