@@ -19,3 +19,10 @@ export const headerMenu = [
   },
 ];
 
+export const explore = [
+  "https://durramarkets.com/pub/media/wysiwyg/deli.jpg",
+  "https://durramarkets.com/pub/media/wysiwyg/bakrey.jpg",
+  "https://durramarkets.com/pub/media/wysiwyg/drinks.jpg",
+  "https://durramarkets.com/pub/media/wysiwyg/durra.jpg",
+];
+

@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "main-image":"url(/public/image/main-image.jpg)"
+        "main-image": "url(/public/image/main-image.jpg)",
       },
     },
     colors: {
@@ -17,7 +17,8 @@ const config: Config = {
       laPaima: "#0f9015",
       fern: "#5cb25d",
       green: "#005825",
-      white:"white"
+      white: "white",
+      blue: "#2872fd",
     },
   },
   plugins: [],

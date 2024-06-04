@@ -2,7 +2,7 @@ import Image from "next/image";
 import breakFast from "../../public/image/breakfast.jpg";
 export default function HeroSection() {
   return (
-    <section className=" dark:bg-gray-900 flex flex-row   bg-gradient-to-t from-fern to-laPaima  py-20 ">
+    <section className=" dark:bg-gray-900 flex flex-row   bg-gradient-to-t from-fern to-laPaima  pb-20 ">
       <div className="flex pt-12 px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
         <div className="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
           <div className="w-full md:w-1/2 lg:pr-32">

@@ -1,16 +1,13 @@
-import React from 'react'
-import main_picture from "../../public/image/main-image.jpg"
-import Image from 'next/image';
-import HeroSection from '@/components/heroSection/HeroSection';
-import ContactUs from '@/components/contactUs/ContactUs';
-import Product from '@/components/product/Product';
-import Header from '@/components/header/Header';
+import ContactUs from "@/components/contactUs/ContactUs";
+import Explore from "@/components/explore/Explore";
+import HeroSection from "@/components/heroSection/HeroSection";
+import Product from "@/components/product/Product";
+import main_picture from "../../public/image/main-image.jpg";
 export default function Page() {
   return (
     <div
-      className="w-full h-full  bg-no-repeat"
-      style={{ backgroundImage: `url(${main_picture.src}) ` }}
-      
+      className="w-full h-full  bg-no-repeat bg-laPaima "
+      style={{ backgroundImage: `url(${main_picture.src})` }}
     >
       <main className="pt-16 h-full ">
         <section className="hero bg-cover bg-center h-screen text-white flex items-center justify-center">
@@ -23,9 +20,11 @@ export default function Page() {
           </div>
         </section>
       </main>
+      <Explore />
+
       <HeroSection />
-      <Product/>
-      <ContactUs/>
+      <Product />
+      <ContactUs />
     </div>
   );
 }
