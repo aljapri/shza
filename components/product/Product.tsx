@@ -5,8 +5,8 @@ import woraq from "../../public/image/woraq.jpg";
 import Image from "next/image";
 export default function App() {
   return (
-    <div className=" pb-20 pt-20  bg-gradient-to-t from-fern to-blue w-full flex flex-col">
-      <div className="py-10 w-full text-center text-5xl text-green">
+    <div className=" pb-20 pt-20  bg-red flex flex-col">
+      <div className="py-10 w-full text-center text-5xl text-white font-bold">
         Product
       </div>
       <div>

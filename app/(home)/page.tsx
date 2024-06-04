@@ -6,7 +6,7 @@ import main_picture from "../../public/image/main-image.jpg";
 export default function Page() {
   return (
     <div
-      className="w-full h-full  bg-no-repeat bg-laPaima "
+      className="w-full h-full  bg-no-repeat bg-blue "
       style={{ backgroundImage: `url(${main_picture.src})` }}
     >
       <main className="pt-16 h-full ">
@@ -20,7 +20,7 @@ export default function Page() {
           </div>
         </section>
       </main>
-      <Explore />
+      {/* <Explore /> */}
 
       <HeroSection />
       <Product />

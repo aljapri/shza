@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function ContactUs() {
   return (
-    <div className="bg-white text-left">
+    <div className="bg-[#ffb81c] text-left">
       <section className="bg-gray-100">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
           <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-extrabold text-green">
+            <h2 className="text-3xl font-extrabold text-white">
               Visit Our Location
             </h2>
             <p className="mt-4 text-lg text-gray-500">
@@ -27,25 +27,25 @@ export default function ContactUs() {
               <div>
                 <div className="max-w-full mx-auto rounded-lg overflow-hidden">
                   <div className="px-6 py-4">
-                    <h3 className="text-lg font-medium text-green">
+                    <h3 className="text-lg font-medium text-white">
                       Our Address
                     </h3>
-                    <p className="mt-1 text-green">
+                    <p className="mt-1 text-white">
                       123 Main St, San Francisco, CA 94105
                     </p>
                   </div>
                   <div className="border-t border-gray-200 px-6 py-4">
-                    <h3 className="text-lg font-medium text-green">Hours</h3>
-                    <p className="mt-1 text-green">
+                    <h3 className="text-lg font-medium text-white">Hours</h3>
+                    <p className="mt-1 text-white">
                       Monday - Friday: 9am - 5pm
                     </p>
-                    <p className="mt-1 text-green">Saturday: 10am - 4pm</p>
-                    <p className="mt-1 text-green">Sunday: Closed</p>
+                    <p className="mt-1 text-white">Saturday: 10am - 4pm</p>
+                    <p className="mt-1 text-white">Sunday: Closed</p>
                   </div>
                   <div className="border-t border-gray-200 px-6 py-4">
-                    <h3 className="text-lg font-medium text-green">Contact</h3>
-                    <p className="mt-1 text-green">Email: info@example.com</p>
-                    <p className="mt-1 text-green">Phone: +1 23494 34993</p>
+                    <h3 className="text-lg font-medium text-white">Contact</h3>
+                    <p className="mt-1 text-white">Email: info@example.com</p>
+                    <p className="mt-1 text-white">Phone: +1 23494 34993</p>
                   </div>
                 </div>
               </div>
