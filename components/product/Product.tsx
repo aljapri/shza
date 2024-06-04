@@ -23,7 +23,7 @@ export default function Product() {
     ],
   ];
   return (
-    <div className="py-10 flex flex-col px-10">
+    <div className="py-10 flex flex-col px-10 justify-center pl-20">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {images.map((column, columnIndex) => (
           <div key={columnIndex} className="grid gap-4">
